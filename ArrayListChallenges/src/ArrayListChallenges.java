@@ -15,9 +15,15 @@ public class ArrayListChallenges
 				for (int i = 0; i<team.size(); i++)
 					{
 						System.out.println(team.get(i));
-						sum +=team[i];
-					}
 //				number two
+						sum +=team.get(i);
+			
+					}
+				System.out.println(sum);
+// 				number three
+				team.remove(2);
+				team.add(12.3);
+				team.add(4.8);
 				
 			}
 
